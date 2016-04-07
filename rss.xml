@@ -4,8 +4,15 @@
         <description><![CDATA[l3study]]></description>
         <link>https://thegrid.ai/l3study/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 07 Apr 2016 14:25:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Apr 2016 14:27:00 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[2. File Permissions]]></title>
+            <description><![CDATA[<article><h1>2. File Permissions</h1><p>I would like any candidate to be able to tell me what the typical file permissions mean.</p></article>]]></description>
+            <link>https://thegrid.ai/l3study/interview-study-guide-part-2/index.html</link>
+            <guid isPermaLink="false">dc0c754b-c2b4-4ac3-8b54-6d70da0d732b</guid>
+            <pubDate>Thu, 07 Apr 2016 14:26:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[4. Basic Understanding of Network Concepts]]></title>
             <description><![CDATA[<article><h1>4. Basic Understanding of Network Concepts</h1><p>Having a basic understanding of networking fundamentals gives candidates the basis for expanding their knowledge into other, more advanced, areas; as they work on normal duties, for this position, and once they become an Admin.</p></article>]]></description>
