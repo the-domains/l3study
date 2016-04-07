@@ -5,23 +5,25 @@ inNav: false
 inLanguage: null
 starred: false
 keywords: []
-description: ''
-datePublished: '2016-04-07T14:19:17.076Z'
-dateModified: '2016-04-07T14:18:12.037Z'
+description: 'The central module of an operating system. It is the part of the operating system that loads first, and it remains in main memory. Because it stays in memory, it is important for the kernel to be as small as possible while still providing all the essential services required by other parts of the operating system and applications. Typically, the kernel is responsible for memory management, process and task management, and disk management.'
+datePublished: '2016-04-07T14:56:32.316Z'
+dateModified: '2016-04-07T14:56:14.437Z'
 title: Interview Study Guide - Part 10
 author: []
+sourcePath: _posts/2016-04-07-interview-study-guide-part-10.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2016-04-07-interview-study-guide-part-10.md
-published: true
 url: interview-study-guide-part-10/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/c11a42ff-745c-4c00-82d7-cbb1fd7b8698.png)
+
 ## 10\. Linux Kernel
 
 ### What is the Linux Kernel?
