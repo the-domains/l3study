@@ -4,8 +4,15 @@
         <description><![CDATA[l3study]]></description>
         <link>https://thegrid.ai/l3study/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 07 Apr 2016 14:23:47 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Apr 2016 14:24:31 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Interview Study Guide - Part 5]]></title>
+            <description><![CDATA[<h1>Interview Study Guide - Part 5</h1>]]></description>
+            <link>https://thegrid.ai/l3study/interview-study-guide-part-5/index.html</link>
+            <guid isPermaLink="false">28f15bd6-59e1-4761-857a-9665b1450233</guid>
+            <pubDate>Thu, 07 Apr 2016 14:24:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[6. Being Able to Troubleshoot Common Applications]]></title>
             <description><![CDATA[<article><h1>6. Being Able to Troubleshoot Common Applications</h1><p>You need to know where the logs are. AT LEAST THAT. If you can, try to get experience for what can be found in them. Familiarize yourself with their messages, errors, format, etc.</p></article>]]></description>
