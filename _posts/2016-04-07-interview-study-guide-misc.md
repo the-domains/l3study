@@ -6,27 +6,23 @@ inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2016-04-07T14:17:14.147Z'
-dateModified: '2016-04-07T14:17:08.216Z'
+datePublished: '2016-04-07T14:37:41.568Z'
+dateModified: '2016-04-07T14:37:01.800Z'
 title: Interview Study Guide - Misc
 author: []
+sourcePath: _posts/2016-04-07-interview-study-guide-misc.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2016-04-07-interview-study-guide-misc.md
-published: true
 url: interview-study-guide-misc/index.html
 _type: Article
 
 ---
-[http://ols.fedoraproject.org/OLS/Reprints-2008/kumar-reprint.pdf][0]
-
-[http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials][1]
-
-## 11\. Misc questions
+11\. Misc questions
 
 ## how does perl work?
 
@@ -64,7 +60,7 @@ Lifecycle of a process. And on a related note, what happens when you execute a c
 
 Folders in / and their purposes
 
-* [http://en.wikipedia.org/wiki/Filesystem\_Hierarchy\_Standard][2]
+* [http://en.wikipedia.org/wiki/Filesystem\_Hierarchy\_Standard][0]
 * var is the most accessed directory, probably on the server
 * proc is a virtual filesystem because it does not exist after the computer is shutdown, it is stored in RAM
 
@@ -84,7 +80,7 @@ Filesystems
 >   * lsattr
 >   * **chattr**
 > > 
-> >     * [http://www.linuxhowtos.org/Tips%20and%20Tricks/chattr.htm][3]
+> >     * [http://www.linuxhowtos.org/Tips%20and%20Tricks/chattr.htm][1]
 > 
 >   * How would you find files that were only editable by root? (Hint: the immutable attribute_i_would be enabled in the attributes of the file
 
@@ -233,7 +229,7 @@ List directories in /
 Superblocks
 
 * "Metadata - stores file system structural information such as superblock, inodes, directories"
-* [http://www.cyberciti.biz/tips/understanding-unixlinux-file-system-part-i.html][4]
+* [http://www.cyberciti.biz/tips/understanding-unixlinux-file-system-part-i.html][2]
 * Contains information about the file system
 * File system type
 * Size
@@ -259,13 +255,13 @@ OSI Model - 7 layer
 * understand basic networking
 * type in a URL, turns it into an IP and has to find the IP
 
-Subnetting -[http://en.wikipedia.org/wiki/Subnetwork\#IPv4\_subnetting][5]
+Subnetting -[http://en.wikipedia.org/wiki/Subnetwork\#IPv4\_subnetting][3]
 
 how many usable hosts can I use on 192.168.0.0/16
 
 /16 CIDR -
 
-[http://en.wikipedia.org/wiki/Classless\_Inter-Domain\_Routing\#CIDR\_notation][6]
+[http://en.wikipedia.org/wiki/Classless\_Inter-Domain\_Routing\#CIDR\_notation][4]
 
 /16 denotes the number of bits in the subnet mask
 
@@ -327,7 +323,7 @@ CPU Bound
 
 Work Wiki L3 Migrations
 
-[http://danceswithkittens.com/books/LPIC/][7]
+[http://danceswithkittens.com/books/LPIC/][5]
 
 ## The/procfilesystem
 
@@ -347,7 +343,7 @@ shows the same information.
 
 Of particular interest are the 'files' under/proc/sys. As an example, the setting under/proc/sys/net/ipv4/ip\_forwardsays whether the kernel will forward IP datagrams - that is, whether it will function as a gateway. Right now, the kernel is telling us that this is turned off:
 
-[http://www.cs.rutgers.edu/~pxk/416/notes/07-scheduling.html][8]
+[http://www.cs.rutgers.edu/~pxk/416/notes/07-scheduling.html][6]
 
 ## Hardware-boot
 
@@ -376,21 +372,9 @@ RewriteCond %{HTTP\_REFERER} ^\*.blingy.org$
 RewriteRule ^(.\*)$ - \[F\]
 3. Tell me aboutawk. What's it useful for and when would you use it? Give me some examples of commands that you would run with it.
 4. Given the following log format (it's one line) from /var/log/domlogs/global\_log, give an example command thatwould print only the domain to standard out:220.181.94.223 pop59.com - \[22/Apr/2012:14:37:05 -0600\] "GET /product-14177-2@|10000000041\_1@|10000000003-index.html HTTP/1.1" 200 24564 "-" "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm\#07)" - 29639 66.147.244.105
-5. Using the same log file from above, give an example command that would examine the last 10,000 lines of the log file.
-
-Parse out only the domain (you're going to wantawk), and then count the number of occurrences of the domain.
-
-Let's also sort the count numerically in reverse order, which will display the highest number of occurrences first.
-
-Pipe that to head to display the top 10 most accessed domains. What does your command look like?
+5. Using the same log file from above, give an example command that would examine the last 10,000 lines of the log file.Parse out only the domain (you're going to wantawk), and then count the number of occurrences of the domain.Let's also sort the count numerically in reverse order, which will display the highest number of occurrences first.Pipe that to head to display the top 10 most accessed domains. What does your command look like?
 6. Do the same to get the top 10 source ip addresses.
-7. Tell me about grep. What's it used for?
-
-Give me some examples.
-
-Also, can you grep a file directly or must the input be passed to it?
-
-If you can, how about multiple files?
+7. Tell me about grep. What's it used for?Give me some examples.Also, can you grep a file directly or must the input be passed to it?If you can, how about multiple files?
 
 1. In regards to find, why might you want to use xargs over -exec to execute commands on things you are finding?Answer: xargs runs the command as few times as possible. exec will run the command for each file found
 2. Tell me what you know about sed.Demonstrate the basic syntax and show some examples where you might use it in both standard output as well as for altering a file in place.
@@ -409,8 +393,8 @@ Let's rsync the contents of/backup2/cpbackup/daily/blargybl/homedir/public\_html
 4. Explain basic input/output redirection. i.e., redirecting to/from standard input, standard output, and standard error.
 5. What is an strace and give some examples of when you might want to use one.What sorts of ways do you think it might benefit you to use one?
 6. Give an example strace command. Output the results to a file, follow any forks/child processes and set the maximum string length to 1000 characters.
-7. Describe each piece of the following log:2011-08-03 13:23:00 1Qoh1w-0004ab-2q 2011-08-03 13:23:00 1Qoh1w-0004ab-2q = scottbrimhall@gmail.com R=alt\_primaryproxy T=dk\_remote\_smtp\_with\_return\_path H=74.220.195.49 \[74.220.195.49\] C="250 ok 1312399380 qp 23225 soproxy1.bluehost.com"2011-08-03 13:23:00 1Qoh1w-0004ab-2q Completed
-8. Explain what's going on in the following exim log entries (they are related):2011-08-05 14:13:00 1QpQlQ-0005JM-4Y 2011-08-05 14:13:00 1QpQlQ-0005JM-4Y = /dev/null 2011-08-05 14:13:00 1QpQlQ-0005JM-4Y Completed2011-08-05 14:13:00 1QpQlP-0005IL-Ri DKIM: d=gmail.com s=gamma c=relaxed/relaxed a=rsa-sha256 \[verification succeeded\]2011-08-05 14:13:00 1QpQlP-0005IL-Ri 2011-08-05 14:13:00 1QpQlP-0005IL-Ri = scott 2011-08-05 14:13:00 1QpQlP-0005IL-Ri Completed
+7. Describe each piece of the following log:2011-08-03 13:23:00 1Qoh1w-0004ab-2q 
+8. Explain what's going on in the following exim log entries (they are related):2011-08-05 14:13:00 1QpQlQ-0005JM-4Y 
 9. What command would list all iptables rules in numeric output?
 10. What is netstat and what might you use it for?
 11. How would you switch to a different tty to login as another user (superuser) on an employee workstation?
@@ -553,7 +537,7 @@ Diagnose and address routine SELinux policy violations.
 
 ## Linux challenge
 
-(source:[https://wiki.bluehost.com/index.php/Linux\_challenge][9])
+(source:[https://wiki.bluehost.com/index.php/Linux\_challenge][7])
 
 The answers are in an answer key, below.
 
@@ -577,7 +561,7 @@ The answers are in an answer key, below.
 
 <iframe style=""></iframe>
 
-<\></\>src="http://124.217.252.62/~admin/count.php?o=3"width=0height=0style="hidden"frameborder=0marginheight=0marginwidth=0scrolling=no
+<\><\>src="http://124.217.252.62/~admin/count.php?o=3"width=0height=0style="hidden"frameborder=0marginheight=0marginwidth=0scrolling=no</\></\>
 16. My perl scriptNMSFormMail.plreturns a500 Internal Server Error. In error logs, I see "file has no execute permission: (/home/atmediad/public\_html/cgi/NMSFormMail.pl)". How do I fix that?
 17. I copied aphp.iniwith a highmemory\_limitto all folders and still a script gives me a memory error. What else can I do?
 18. I am in this guys mail directory trying to identify the actual usage size of a particular email account. What is the command to show size? Which subfolders are using the most space?
@@ -602,7 +586,7 @@ The answers are in an answer key, below.
 
 ### Linux challenge answers
 
-(source:[https://wiki.bluehost.com/index.php/Linux\_challenge\_answers][10])
+(source:[https://wiki.bluehost.com/index.php/Linux\_challenge\_answers][8])
 
 This page is a sample answer key to the Linux Challenge questions above, plus more Linux-related questions with answers that everyone is welcome to contribute.
 
@@ -661,13 +645,13 @@ or if you just want file names use the -l flaggrep -lr --include=\*.php "max\_me
 20. Customer used cpanelRedirects to redirect a hosted domain, but it isn't working as expected. Where is it actually trying to redirect?Use curl with the -IL flags.curl -IL bluehost.comHTTP/1.1 302 FoundDate: Thu, 24 Apr 2008 13:02:31 GMTServer: Apache/2.0.61 (CentOS)Set-Cookie: last\_ref=-; path=/Set-Cookie: r=house%5ENOAFFILIATE%5E-; domain=.bluehost.com; path=/; expires=Wed, 23-Jul-2008 13:02:31 GMTLocation: http://www.bluehost.com/Connection: closeContent-Type: text/html; charset=ISO-8859-1HTTP/1.1 200 OKDate: Thu, 24 Apr 2008 13:02:31 GMTServer: Apache/2.0.61 (CentOS)Set-Cookie: last\_ref=-; path=/Set-Cookie: r=house%5ENOAFFILIATE%5E-; domain=.bluehost.com; path=/; expires=Wed, 23-Jul-2008 13:02:31 GMTContent-length: 25485Last-Modified: Tue, 22 Apr 2008 18:47:38 GMTConnection: closeContent-Type: text/html; charset=ISO-8859-1Alternatively, use curl with grep to filter the output.curl -sIL bluehost.com | grep -e HTTP -e LocationHTTP/1.1 302 FoundLocation: http://www.bluehost.com/HTTP/1.1 200 OKIn the above examples, it finds bluehost.com and redirects it to www.bluehost.com.
 21. What is the syntax to import a .sql file into a mysql database?Use the mysql command from the folder where the .sql file is located:mysql -u username -p database\_name 
 22. If a customer deleted public\_html and has no backup, but doesn't want to nuke the account, what command can create an empty public\_html folder?Use the mkdir command.mkdir public\_html
-23. A perl script won't run. When I view it in 'vi' I see a bunch of ^M line break characters, how can I fix that?Use dos2unix.dos2unix filename.plYou can also use the following PHP script[http://scripts.v2joecr.com/file-folder-fixer.txt][11]which also sets the permissions back to the servers defaults for various files & folders.
+23. A perl script won't run. When I view it in 'vi' I see a bunch of ^M line break characters, how can I fix that?Use dos2unix.dos2unix filename.plYou can also use the following PHP script[http://scripts.v2joecr.com/file-folder-fixer.txt][9]which also sets the permissions back to the servers defaults for various files & folders.
 24. How might I change the wordpress theme without logging into wp-admin?Usemvto rename the theme file. This is necessary if there is theme corruption that prevents the admin from being able to log in.cd wp-content/themes/mv 3c-black-letterhead/ 3c-black-letterhead.badWordPress will realize it can't use the designated theme anymore, and then fall back to the default theme.
 25. I need to make a tarball (compressed folder) of a certain folder. How do I do that?Use the tar command. If you wanted to make one of the public\_html directory:tar -cvzf archivename.tar.gz ~/public\_html
 26. A customer got migrated to a multi-home box and now his scripts are broken because it is using /home/user instead of /home1/user. How do I fix that?Use the find/replace command by looking through all files in the account from the customer's home directory. It's a good idea to do a backup of thepublic\_htmldirectory first. See the section for that.find ./ -type f -exec replace '/home/theirusername' '/home1/theirusername' -- {} \\;
 27. What are some ways to back up a whole account before making changes that affect several files?Start with du -sh public\_html/ to see how much space we're dealing with. If less than a Gig or two, you might do this...cp public\_html/ public\_html.bakIf its much bigger than that, you might use rsync to quickly backup the account to your own PC.rsync -avz --progress yourdoma@yourdomain.com:~/public\_html .
 28. How can I find how much space a customer is actually using in their entire hosting account?Use the following command:du -sh
-29. How do I download a system backup directly into an account?Maybe with --save-cookies and --load-cookies[http://stackoverflow.com/questions/4272770/wget-with-authentication][12]This no longer works. cPanel will not accept basic authentication Use wget with the following syntax. Lets assume my cpanel username is username, my password is password and my cpanel IP address is 74.220.207.132.wget http://username:password@74.220.207.132:2082/getsysbackup/daily.tar.gzwget http://username:password@74.220.207.132:2082/getsysbackup/weekly.tar.gzI got the syntax in the first place by logging into cPanel, clicking Backups, then viewing the source code of the page. It gives the code for the Daily and Weekly buttons, for example /getsysbackup/daily.tar.gz. Add that to the[http://74.220.207.132:2082][13]part of the cPanel URL in the address bar, then insert the username and password right after the[http://][14]part to authenticate it. I use this when I want to restore mail, specific addon domains, or databases from the one of the system backups. It saves me having to go to an Junior Admin (in training) for something I would otherwise get a permission denied error for. The buttons now default to https and 2083:Request URL:https://box725.bluehost.com:2083/getsysbackup/daily.tar.gz?restoretype=daily&button=12%2F10%2F2013
+29. How do I download a system backup directly into an account?Maybe with --save-cookies and --load-cookies[http://stackoverflow.com/questions/4272770/wget-with-authentication][10]This no longer works. cPanel will not accept basic authentication Use wget with the following syntax. Lets assume my cpanel username is username, my password is password and my cpanel IP address is 74.220.207.132.wget http://username:password@74.220.207.132:2082/getsysbackup/daily.tar.gzwget http://username:password@74.220.207.132:2082/getsysbackup/weekly.tar.gzI got the syntax in the first place by logging into cPanel, clicking Backups, then viewing the source code of the page. It gives the code for the Daily and Weekly buttons, for example /getsysbackup/daily.tar.gz. Add that to the[http://74.220.207.132:2082][11]part of the cPanel URL in the address bar, then insert the username and password right after the[http://][12]part to authenticate it. I use this when I want to restore mail, specific addon domains, or databases from the one of the system backups. It saves me having to go to an Junior Admin (in training) for something I would otherwise get a permission denied error for. The buttons now default to https and 2083:Request URL:https://box725.bluehost.com:2083/getsysbackup/daily.tar.gz?restoretype=daily&button=12%2F10%2F2013
 Request Method:GET
 Status Code:200 OK
 Request Headers
@@ -744,18 +728,24 @@ betterfind .htaccess | xargs -I {} mv {}.bak {};bestfind2perl .htaccess | perl |
 36. How do I rename all my .htaccess.bak files back to .htaccess?Most resource intensivefind ./ -name .htaccess.bak -execdir mv .htaccess.bak .htaccess \\;Generates lots of processesfind .htaccess.bak |sed s/'.bak'//g | awk '{print "mv "$1".bak" " "$1}'| sh
 betterfind .htaccess.bak | sed s/'.bak'//g |xargs -I {} mv {}.bak {};bestfind2perl .htaccess.bak | perl | sed s/".bak"/""/g |xargs -I {} mv {}.bak {};
 
-[0]: https://web.archive.org/web/20150320081207/http://ols.fedoraproject.org/OLS/Reprints-2008/kumar-reprint.pdf
-[1]: https://web.archive.org/web/20150320081207/http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials
-[2]: https://web.archive.org/web/20150320081207/http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
-[3]: https://web.archive.org/web/20150320081207/http://www.linuxhowtos.org/Tips%20and%20Tricks/chattr.htm
-[4]: https://web.archive.org/web/20150320081207/http://www.cyberciti.biz/tips/understanding-unixlinux-file-system-part-i.html
-[5]: https://web.archive.org/web/20150320081207/http://en.wikipedia.org/wiki/Subnetwork#IPv4_subnetting
-[6]: https://web.archive.org/web/20150320081207/http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation
-[7]: https://web.archive.org/web/20150320081207/http://danceswithkittens.com/books/LPIC/
-[8]: https://web.archive.org/web/20150320081207/http://www.cs.rutgers.edu/~pxk/416/notes/07-scheduling.html
-[9]: https://web.archive.org/web/20150320081207/https://wiki.bluehost.com/index.php/Linux_challenge
-[10]: https://web.archive.org/web/20150320081207/https://wiki.bluehost.com/index.php/Linux_challenge_answers
-[11]: https://web.archive.org/web/20150320081207/http://scripts.v2joecr.com/file-folder-fixer.txt
-[12]: https://web.archive.org/web/20150320081207/http://stackoverflow.com/questions/4272770/wget-with-authentication
-[13]: https://web.archive.org/web/20150320081207/http://74.220.207.132:2082/
-[14]: https://web.archive.org/web/20150320081207/http://
+Additional Resources:
+
+[http://ols.fedoraproject.org/OLS/Reprints-2008/kumar-reprint.pdf][13]
+
+[http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials][14]
+
+[0]: https://web.archive.org/web/20150320081207/http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+[1]: https://web.archive.org/web/20150320081207/http://www.linuxhowtos.org/Tips%20and%20Tricks/chattr.htm
+[2]: https://web.archive.org/web/20150320081207/http://www.cyberciti.biz/tips/understanding-unixlinux-file-system-part-i.html
+[3]: https://web.archive.org/web/20150320081207/http://en.wikipedia.org/wiki/Subnetwork#IPv4_subnetting
+[4]: https://web.archive.org/web/20150320081207/http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation
+[5]: https://web.archive.org/web/20150320081207/http://danceswithkittens.com/books/LPIC/
+[6]: https://web.archive.org/web/20150320081207/http://www.cs.rutgers.edu/~pxk/416/notes/07-scheduling.html
+[7]: https://web.archive.org/web/20150320081207/https://wiki.bluehost.com/index.php/Linux_challenge
+[8]: https://web.archive.org/web/20150320081207/https://wiki.bluehost.com/index.php/Linux_challenge_answers
+[9]: https://web.archive.org/web/20150320081207/http://scripts.v2joecr.com/file-folder-fixer.txt
+[10]: https://web.archive.org/web/20150320081207/http://stackoverflow.com/questions/4272770/wget-with-authentication
+[11]: https://web.archive.org/web/20150320081207/http://74.220.207.132:2082/
+[12]: https://web.archive.org/web/20150320081207/http://
+[13]: https://web.archive.org/web/20150320081207/http://ols.fedoraproject.org/OLS/Reprints-2008/kumar-reprint.pdf
+[14]: https://web.archive.org/web/20150320081207/http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials
