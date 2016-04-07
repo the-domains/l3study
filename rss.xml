@@ -4,8 +4,15 @@
         <description><![CDATA[l3study]]></description>
         <link>https://thegrid.ai/l3study/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 07 Apr 2016 14:19:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Apr 2016 14:19:18 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[10. Linux Kernel]]></title>
+            <description><![CDATA[<article><h1>10. Linux Kernel</h1><p>The central module of an operating system. It is the part of the operating system that loads first, and it remains in main memory. Because it stays in memory, it is important for the kernel to be as small as possible while still providing all the essential services required by other parts of the operating system and applications. Typically, the kernel is responsible for memory management, process and task management, and disk management.</p></article>]]></description>
+            <link>https://thegrid.ai/l3study/interview-study-guide-part-10/index.html</link>
+            <guid isPermaLink="false">1ef31b57-57b5-4cbf-9691-e382c55cc538</guid>
+            <pubDate>Thu, 07 Apr 2016 14:19:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[9. Memory Information]]></title>
             <description><![CDATA[<article><h1>9. Memory Information</h1><p>Swap is additional memory the server can use if the RAM has run out. Swap is much slower than RAM. So if you have a really high swap there must be something using up a lot of memory.</p></article>]]></description>
