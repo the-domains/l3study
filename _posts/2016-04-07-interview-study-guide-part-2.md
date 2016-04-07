@@ -6,22 +6,24 @@ inLanguage: null
 starred: false
 keywords: []
 description: I would like any candidate to be able to tell me what the typical file permissions mean.
-datePublished: '2016-04-07T14:26:58.868Z'
-dateModified: '2016-04-07T14:26:58.295Z'
+datePublished: '2016-04-07T14:41:24.973Z'
+dateModified: '2016-04-07T14:41:21.840Z'
 title: Interview Study Guide - Part 2
 author: []
+sourcePath: _posts/2016-04-07-interview-study-guide-part-2.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2016-04-07-interview-study-guide-part-2.md
-published: true
 url: interview-study-guide-part-2/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/94ff575b-2af1-45a3-b9d0-52b7142c36ef.png)
+
 ## 2\. File Permissions
 
 **I would like any candidate to be able to tell me what the typical file permissions mean.**
