@@ -5,23 +5,25 @@ inNav: false
 inLanguage: null
 starred: false
 keywords: []
-description: ''
-datePublished: '2016-04-07T14:24:30.187Z'
-dateModified: '2016-04-07T14:24:29.775Z'
+description: Understanding RAID levels is important to understanding how our systems work.
+datePublished: '2016-04-07T14:44:04.059Z'
+dateModified: '2016-04-07T14:43:53.909Z'
 title: Interview Study Guide - Part 5
 author: []
+sourcePath: _posts/2016-04-07-interview-study-guide-part-5.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2016-04-07-interview-study-guide-part-5.md
-published: true
 url: interview-study-guide-part-5/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/de023f8d-c6a1-47ef-b933-405a2e2616ca.jpg)
+
 ## 5\. RAID
 
 **Understanding RAID levels is important to understanding how our systems work.**
