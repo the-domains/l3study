@@ -4,8 +4,15 @@
         <description><![CDATA[l3study]]></description>
         <link>https://thegrid.ai/l3study/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 07 Apr 2016 14:27:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Apr 2016 14:28:30 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Interview Study Guide - Part 1]]></title>
+            <description><![CDATA[<h1>Interview Study Guide - Part 1</h1>]]></description>
+            <link>https://thegrid.ai/l3study/interview-study-guide-part-1/index.html</link>
+            <guid isPermaLink="false">020e9b4f-503f-4c67-a063-a7749269606d</guid>
+            <pubDate>Thu, 07 Apr 2016 14:28:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[2. File Permissions]]></title>
             <description><![CDATA[<article><h1>2. File Permissions</h1><p>I would like any candidate to be able to tell me what the typical file permissions mean.</p></article>]]></description>
