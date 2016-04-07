@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[l3study]]></title>
+        <description><![CDATA[l3study]]></description>
+        <link>https://thegrid.ai/l3study/</link>
+        <generator>The Grid</generator>
+        <lastBuildDate>Thu, 07 Apr 2016 14:19:07 GMT</lastBuildDate>
+        <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[9. Memory Information]]></title>
+            <description><![CDATA[<article><h1>9. Memory Information</h1><p>Swap is additional memory the server can use if the RAM has run out. Swap is much slower than RAM. So if you have a really high swap there must be something using up a lot of memory.</p></article>]]></description>
+            <link>https://thegrid.ai/l3study/9d9b4447-bf01-40fa-aa83-f844057f04a1/index.html</link>
+            <guid isPermaLink="false">9d9b4447-bf01-40fa-aa83-f844057f04a1</guid>
+            <pubDate>Thu, 07 Apr 2016 14:19:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[11. Misc questions]]></title>
+            <description><![CDATA[<article><h1>11. Misc questions</h1><p>http://ols.fedoraproject.org/OLS/Reprints-2008/kumar-reprint.pdf</p></article>]]></description>
+            <link>https://thegrid.ai/l3study/interview-study-guide-misc/index.html</link>
+            <guid isPermaLink="false">e9917ace-b16f-4339-9b73-5fc697faa162</guid>
+            <pubDate>Thu, 07 Apr 2016 14:17:14 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
