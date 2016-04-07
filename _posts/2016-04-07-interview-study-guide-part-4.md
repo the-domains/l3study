@@ -6,22 +6,24 @@ inLanguage: null
 starred: false
 keywords: []
 description: 'Having a basic understanding of networking fundamentals gives candidates the basis for expanding their knowledge into other, more advanced, areas; as they work on normal duties, for this position, and once they become an Admin.'
-datePublished: '2016-04-07T14:25:38.496Z'
-dateModified: '2016-04-07T14:25:37.665Z'
+datePublished: '2016-04-07T14:43:08.305Z'
+dateModified: '2016-04-07T14:42:55.297Z'
 title: Interview Study Guide - Part 4
 author: []
+sourcePath: _posts/2016-04-07-interview-study-guide-part-4.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2016-04-07-interview-study-guide-part-4.md
-published: true
 url: interview-study-guide-part-4/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/60eea8f8-6019-4c27-8df2-69f39c1d2e47.jpg)
+
 ## 4\. Basic Understanding of Network Concepts
 
 **Having a basic understanding of networking fundamentals gives candidates the basis for expanding their knowledge into other, more advanced, areas; as they work on normal duties, for this position, and once they become an Admin.**
