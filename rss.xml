@@ -4,7 +4,7 @@
         <description><![CDATA[l3study]]></description>
         <link>https://thegrid.ai/l3study/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 07 Apr 2016 14:36:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Apr 2016 14:36:20 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Interview Study Guide - Part 3]]></title>
@@ -74,7 +74,7 @@
             <description><![CDATA[<article><h1>9. Memory Information</h1><p>Swap is additional memory the server can use if the RAM has run out. Swap is much slower than RAM. So if you have a really high swap there must be something using up a lot of memory.</p></article>]]></description>
             <link>https://thegrid.ai/l3study/9d9b4447-bf01-40fa-aa83-f844057f04a1/index.html</link>
             <guid isPermaLink="false">9d9b4447-bf01-40fa-aa83-f844057f04a1</guid>
-            <pubDate>Thu, 07 Apr 2016 14:30:25 GMT</pubDate>
+            <pubDate>Thu, 07 Apr 2016 14:36:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
