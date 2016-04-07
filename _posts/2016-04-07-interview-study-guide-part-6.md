@@ -6,22 +6,24 @@ inLanguage: null
 starred: false
 keywords: []
 description: 'You need to know where the logs are. AT LEAST THAT. If you can, try to get experience for what can be found in them. Familiarize yourself with their messages, errors, format, etc.'
-datePublished: '2016-04-07T14:23:45.701Z'
-dateModified: '2016-04-07T14:23:45.316Z'
+datePublished: '2016-04-07T14:49:04.069Z'
+dateModified: '2016-04-07T14:48:52.030Z'
 title: Interview Study Guide - Part 6
 author: []
+sourcePath: _posts/2016-04-07-interview-study-guide-part-6.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-sourcePath: _posts/2016-04-07-interview-study-guide-part-6.md
-published: true
 url: interview-study-guide-part-6/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/ccb98053-396d-4da3-86c8-40113c44f2cc.jpg)
+
 ## 6\. Being Able to Troubleshoot Common Applications
 
 ### Can you troubleshoot Apache, MySQL, Exim, etc...?
