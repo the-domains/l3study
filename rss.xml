@@ -4,7 +4,7 @@
         <description><![CDATA[l3study]]></description>
         <link>https://thegrid.ai/l3study/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 07 Apr 2016 14:40:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Apr 2016 14:41:42 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Interview Study Guide - Misc]]></title>
@@ -22,7 +22,7 @@
         </item>
         <item>
             <title><![CDATA[Interview Study Guide - Part 1]]></title>
-            <description><![CDATA[<article><h1>Interview Study Guide - Part 1</h1><p>Linux files and devices.</p><img src="https://the-grid-user-content.s3-us-west-2.amazonaws.com/2d8daf8e-4628-4d76-86af-0056152b4324.png"></article>]]></description>
+            <description><![CDATA[<article><h1>Interview Study Guide - Part 1</h1><p>Linux files and devices.</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/53f25128f4198643b0dfabe38627346268a9a5b5.png"></article>]]></description>
             <link>https://thegrid.ai/l3study/interview-study-guide-part-1/index.html</link>
             <guid isPermaLink="false">020e9b4f-503f-4c67-a063-a7749269606d</guid>
             <pubDate>Thu, 07 Apr 2016 14:39:36 GMT</pubDate>
@@ -32,7 +32,7 @@
             <description><![CDATA[<article><h1>2. File Permissions</h1><p>I would like any candidate to be able to tell me what the typical file permissions mean.</p></article>]]></description>
             <link>https://thegrid.ai/l3study/interview-study-guide-part-2/index.html</link>
             <guid isPermaLink="false">dc0c754b-c2b4-4ac3-8b54-6d70da0d732b</guid>
-            <pubDate>Thu, 07 Apr 2016 14:26:58 GMT</pubDate>
+            <pubDate>Thu, 07 Apr 2016 14:41:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[4. Basic Understanding of Network Concepts]]></title>
