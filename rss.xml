@@ -4,8 +4,15 @@
         <description><![CDATA[l3study]]></description>
         <link>https://thegrid.ai/l3study/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 07 Apr 2016 14:28:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Apr 2016 14:28:42 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Interview Study Guide - Part 3]]></title>
+            <description><![CDATA[<h1>Interview Study Guide - Part 3</h1>]]></description>
+            <link>https://thegrid.ai/l3study/interview-study-guide-part-3/index.html</link>
+            <guid isPermaLink="false">8965d97f-4399-4bcd-a290-4f209129560e</guid>
+            <pubDate>Thu, 07 Apr 2016 14:28:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Interview Study Guide - Part 1]]></title>
             <description><![CDATA[<h1>Interview Study Guide - Part 1</h1>]]></description>
@@ -68,13 +75,6 @@
             <link>https://thegrid.ai/l3study/9d9b4447-bf01-40fa-aa83-f844057f04a1/index.html</link>
             <guid isPermaLink="false">9d9b4447-bf01-40fa-aa83-f844057f04a1</guid>
             <pubDate>Thu, 07 Apr 2016 14:19:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[11. Misc questions]]></title>
-            <description><![CDATA[<article><h1>11. Misc questions</h1><p>http://ols.fedoraproject.org/OLS/Reprints-2008/kumar-reprint.pdf</p></article>]]></description>
-            <link>https://thegrid.ai/l3study/interview-study-guide-misc/index.html</link>
-            <guid isPermaLink="false">e9917ace-b16f-4339-9b73-5fc697faa162</guid>
-            <pubDate>Thu, 07 Apr 2016 14:17:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
