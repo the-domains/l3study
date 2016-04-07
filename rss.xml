@@ -4,11 +4,18 @@
         <description><![CDATA[l3study]]></description>
         <link>https://thegrid.ai/l3study/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 07 Apr 2016 14:24:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Apr 2016 14:25:51 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/l3study/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Interview Study Guide - Part 5]]></title>
-            <description><![CDATA[<h1>Interview Study Guide - Part 5</h1>]]></description>
+            <title><![CDATA[4. Basic Understanding of Network Concepts]]></title>
+            <description><![CDATA[<article><h1>4. Basic Understanding of Network Concepts</h1><p>Having a basic understanding of networking fundamentals gives candidates the basis for expanding their knowledge into other, more advanced, areas; as they work on normal duties, for this position, and once they become an Admin.</p></article>]]></description>
+            <link>https://thegrid.ai/l3study/interview-study-guide-part-4/index.html</link>
+            <guid isPermaLink="false">56220ec9-125d-4ca5-ab31-a4971f0022bc</guid>
+            <pubDate>Thu, 07 Apr 2016 14:25:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[5. RAID]]></title>
+            <description><![CDATA[<article><h1>5. RAID</h1><p>Understanding RAID levels is important to understanding how our systems work.</p></article>]]></description>
             <link>https://thegrid.ai/l3study/interview-study-guide-part-5/index.html</link>
             <guid isPermaLink="false">28f15bd6-59e1-4761-857a-9665b1450233</guid>
             <pubDate>Thu, 07 Apr 2016 14:24:30 GMT</pubDate>
