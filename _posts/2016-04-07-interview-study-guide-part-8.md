@@ -5,23 +5,25 @@ inNav: false
 inLanguage: null
 starred: false
 keywords: []
-description: ''
-datePublished: '2016-04-07T14:21:05.151Z'
-dateModified: '2016-04-07T14:21:04.814Z'
+description: 'Understanding this process provides a solid foundation for future learning, and it also shows me that somebody has taken the initiative in wanting to learn how things work under the hood.'
+datePublished: '2016-04-07T14:52:36.263Z'
+dateModified: '2016-04-07T14:52:33.273Z'
 title: Interview Study Guide - Part 8
+author: []
+sourcePath: _posts/2016-04-07-interview-study-guide-part-8.md
+published: true
 authors: []
 publisher:
   name: null
   domain: null
   url: null
   favicon: null
-author: []
-sourcePath: _posts/2016-04-07-interview-study-guide-part-8.md
-published: true
 url: interview-study-guide-part-8/index.html
 _type: Article
 
 ---
+![](https://the-grid-user-content.s3-us-west-2.amazonaws.com/e2af30dd-596e-4dbe-93ea-089443120460.png)
+
 ## 8\. Understanding What Takes Place When a Computer or Server Boots
 
 **Understanding this process provides a solid foundation for future learning, and it also shows me that somebody has taken the initiative in wanting to learn how things work under the hood.**
